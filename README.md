@@ -1,5 +1,5 @@
 # My local projects
-### Parser with GUI form according to this grammar(java):
+### Parser with GUI form according to this grammar(java) (folder parserGUI):
 
 \<Stmt\> ::= if ( IDENT ) \<Stmt\> | IDENT = NUMBER ; | { \<Seq\> }
 
@@ -9,7 +9,7 @@ Number is a sequence of digits, IDENT is a sequence of digits and letters, start
 
 The program creates one window with two panels, one for inputing program, another for outputting the result of syntax analyse. Also there is a small semantic analysis: the programm is printing, where you have done mistake.
 
-### Interesting task (c++)
+### Interesting task (c++) (file modularization.cpp)
 The task is a mini-project. The program takes as input strings written in a functional language (see the LL(1) grammar inside the commented code). The goal is to parse this program, which consists of functions, ensuring that only declared variables are used within the functions (a small semantic analysis is involved).
 
 Next, the functions of the program need to be split into modules that depend on each other. This must be done in such a way that no cyclic dependencies between modules are possible (i.e., mutually recursive functions must reside in the same module).
