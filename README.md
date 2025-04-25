@@ -15,3 +15,11 @@ The task is a mini-project. The program takes as input strings written in a func
 Next, the functions of the program need to be split into modules that depend on each other. This must be done in such a way that no cyclic dependencies between modules are possible (i.e., mutually recursive functions must reside in the same module).
 
 Finally, the program should output an estimate of the maximum number of such modules (using a dependency graph construction and Tarjan's algorithm to find strongly connected components).
+
+### MQTT protocol punching (java) (folder MQTT test)
+
+This folder contains two programs that use the MQTT protocol to transmit data.
+
+In the first program, you enter a product to  want to buy at the store and send it to the list by clicking the "Send" button.
+
+The second program receives the product and displays the final shopping list.
