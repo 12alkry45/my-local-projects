@@ -23,3 +23,7 @@ This folder contains two programs that use the MQTT protocol to transmit data.
 In the first program, you enter a product to  want to buy at the store and send it to the list by clicking the "Send" button.
 
 The second program receives the product and displays the final shopping list.
+
+### Approximation y = x by trapezoid (folder Approxim)
+
+Here I was exploring the capabilities of the Swing library. The task involves displaying trapezoids that approximate the graph of the function y=x over a user-defined interval specified in the interface. It also includes the ability to adjust the number of trapezoids on the interval and fill them in alternating colors.
